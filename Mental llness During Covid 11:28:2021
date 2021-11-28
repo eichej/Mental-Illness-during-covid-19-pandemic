@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Nov 28 10:10:54 2021
+
+@author: josephweichenbaum
+"""
+
+import matplotlib.pyplot as plt 
+def create_plot(ptype): (x,y)
+    # setting the x-axis values
+x  = (2019,2020,2021)
+y  = (10.8,40,31.3)   
+ 
+
+ 
+# create a figure
+fig = plt.figure()
+plt.bar(x, y, color='red') 
+
+plt.xlabel("year")
+plt.ylabel("Percentage Anxiety and Depression,Mental Illness")
+plt.title("Mental Illness during Covid Pandemic")         
+plt.show()     
+ 
